@@ -1,0 +1,22 @@
+All Announcement Tags
+senior
+junior
+sophmore
+freshman
+sports
+clubs
+
+All of the UserDefaults keys and what they're for
+
+Digital ID Keys
+    "DidScan": String - Checks if the user has scanned their ID
+    "UserID": String - Is nil if the user has never scanned their ID, or contains the value of the users ID
+
+Startup Survey Keys
+    "sawSurvey": String - Is nil if the user has not completed the Startup Survey, or contains "seen" if the user has completed the Startup Survey
+    "announcementTags": String - (Currently a String needs to be a String array) Is nil if the user has not selected any wanted announcements or contains the tags of whatever the user has opted to recieve
+    "gradeLevel": String - Is nil if the user has not completed the Startup Survey, or contains the grade the user is in (Ex."12th Grade")
+
+Splash Screen Keys
+    "sawSplash": String - Is nil if the user has not tapped continue on the Splash Screen, or contains seen if the user has tapped continue
+

@@ -1,0 +1,663 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40439A2323986D3300356DC8 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40439A2223986D3300356DC8 /* Utils.swift */; };
+		4046484823CC23D300E12E1D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4046484723CC23D300E12E1D /* GoogleService-Info.plist */; };
+		4049857623DAA23000CFA04E /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4049857523DAA23000CFA04E /* SplashScreen.swift */; };
+		404C159523C8CAE900EC832E /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4090C74E23C8B2B2009B7CBF /* CloudKit.framework */; };
+		404C159823C8CAEB00EC832E /* Pods_PV_Pocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D420839246CACF5FAAFD5A8B /* Pods_PV_Pocket.framework */; };
+		404C600823D00F32004AABFD /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404C600723D00F32004AABFD /* MapView.swift */; };
+		404F692B23D8B8D600A32640 /* DigitalIDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404F692A23D8B8D600A32640 /* DigitalIDView.swift */; };
+		4052A674238A348E00836B44 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4052A673238A348E00836B44 /* HomeView.swift */; };
+		4056A2B4238C80B500AC4F1F /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4056A2B3238C80B500AC4F1F /* BlurView.swift */; };
+		4066F96B23A05637001F7586 /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4066F96A23A05637001F7586 /* UserSettings.swift */; };
+		408CE7AA23DB787D00D378E1 /* Keys.txt in Resources */ = {isa = PBXBuildFile; fileRef = 408CE7A923DB787D00D378E1 /* Keys.txt */; };
+		40966BE62389A1E30077C0FB /* LunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40966BE52389A1E30077C0FB /* LunchView.swift */; };
+		40966BE82389A55F0077C0FB /* ClassroomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40966BE72389A55F0077C0FB /* ClassroomView.swift */; };
+		409E57632396B558001C4E34 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409E57622396B558001C4E34 /* Login.swift */; };
+		40BA74B6238C4F6D003CC9DC /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BA74B5238C4F6D003CC9DC /* CardView.swift */; };
+		40CAA10323888DF8007CC03F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CAA10223888DF8007CC03F /* AppDelegate.swift */; };
+		40CAA10523888DF8007CC03F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CAA10423888DF8007CC03F /* SceneDelegate.swift */; };
+		40CAA10823888DF8007CC03F /* SwiftUI_Test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 40CAA10623888DF8007CC03F /* SwiftUI_Test.xcdatamodeld */; };
+		40CAA10A23888DF8007CC03F /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CAA10923888DF8007CC03F /* MainView.swift */; };
+		40CAA10C23888DF9007CC03F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40CAA10B23888DF9007CC03F /* Assets.xcassets */; };
+		40CAA11223888DF9007CC03F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40CAA11023888DF9007CC03F /* LaunchScreen.storyboard */; };
+		40E09DCF23CE04FE007898D4 /* Stickers.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40E09DCE23CE04FE007898D4 /* Stickers.xcassets */; };
+		40E09DD323CE04FE007898D4 /* PV Pocket Stickers.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 40E09DCC23CE04FC007898D4 /* PV Pocket Stickers.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		40FE8616239A0A090067C968 /* Announcements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FE8615239A0A080067C968 /* Announcements.swift */; };
+		40FE8618239AC96E0067C968 /* BarcodeScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FE8617239AC96E0067C968 /* BarcodeScanner.swift */; };
+		A225467623E481DB0015D3EF /* DeliOrderItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = A225467523E481DB0015D3EF /* DeliOrderItems.swift */; };
+		CCECA4FD23D9EEEE00D1C2BD /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = CCECA4FC23D9EEEE00D1C2BD /* URLImage */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40E09DD123CE04FE007898D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40CAA0F723888DF8007CC03F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40E09DCB23CE04FC007898D4;
+			remoteInfo = "PV-Pocket Stickers";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		40E09DC623CE0358007898D4 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				40E09DD323CE04FE007898D4 /* PV Pocket Stickers.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3FD21122B3F47478A64B0AE8 /* Pods-PV-Pocket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PV-Pocket.debug.xcconfig"; path = "Target Support Files/Pods-PV-Pocket/Pods-PV-Pocket.debug.xcconfig"; sourceTree = "<group>"; };
+		40439A2223986D3300356DC8 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		4046484723CC23D300E12E1D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4049857523DAA23000CFA04E /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		404C600723D00F32004AABFD /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = SOURCE_ROOT; };
+		404F692A23D8B8D600A32640 /* DigitalIDView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitalIDView.swift; sourceTree = SOURCE_ROOT; };
+		4052A673238A348E00836B44 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		4056A2B3238C80B500AC4F1F /* BlurView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		4066F96A23A05637001F7586 /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
+		408CE7A923DB787D00D378E1 /* Keys.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Keys.txt; sourceTree = "<group>"; };
+		4090C74E23C8B2B2009B7CBF /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		40966BE52389A1E30077C0FB /* LunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunchView.swift; sourceTree = "<group>"; };
+		40966BE72389A55F0077C0FB /* ClassroomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassroomView.swift; sourceTree = "<group>"; };
+		409E57622396B558001C4E34 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		40BA74B5238C4F6D003CC9DC /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		40CAA0FF23888DF8007CC03F /* PV Pocket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PV Pocket.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40CAA10223888DF8007CC03F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		40CAA10423888DF8007CC03F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		40CAA10723888DF8007CC03F /* SwiftUI_Test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftUI_Test.xcdatamodel; sourceTree = "<group>"; };
+		40CAA10923888DF8007CC03F /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		40CAA10B23888DF9007CC03F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40CAA11123888DF9007CC03F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		40CAA11323888DF9007CC03F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40E09DBA23CE0358007898D4 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		40E09DCC23CE04FC007898D4 /* PV Pocket Stickers.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "PV Pocket Stickers.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40E09DCE23CE04FE007898D4 /* Stickers.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Stickers.xcassets; sourceTree = "<group>"; };
+		40E09DD023CE04FE007898D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40F0FB6223C7836500C3C2FD /* PV Pocket.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "PV Pocket.entitlements"; sourceTree = "<group>"; };
+		40FE8615239A0A080067C968 /* Announcements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Announcements.swift; sourceTree = "<group>"; };
+		40FE8617239AC96E0067C968 /* BarcodeScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScanner.swift; sourceTree = "<group>"; };
+		65AAEE757490A1E3AD186074 /* Pods-SwiftUI Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI Test.release.xcconfig"; path = "Target Support Files/Pods-SwiftUI Test/Pods-SwiftUI Test.release.xcconfig"; sourceTree = "<group>"; };
+		9AD656A90C7AEE381CE720D0 /* Pods-SwiftUI Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI Test.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUI Test/Pods-SwiftUI Test.debug.xcconfig"; sourceTree = "<group>"; };
+		A225467523E481DB0015D3EF /* DeliOrderItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliOrderItems.swift; sourceTree = "<group>"; };
+		A643A375F3BC49A9E02A40E0 /* Pods-PV-Pocket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PV-Pocket.release.xcconfig"; path = "Target Support Files/Pods-PV-Pocket/Pods-PV-Pocket.release.xcconfig"; sourceTree = "<group>"; };
+		D420839246CACF5FAAFD5A8B /* Pods_PV_Pocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PV_Pocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40CAA0FC23888DF8007CC03F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				404C159823C8CAEB00EC832E /* Pods_PV_Pocket.framework in Frameworks */,
+				CCECA4FD23D9EEEE00D1C2BD /* URLImage in Frameworks */,
+				404C159523C8CAE900EC832E /* CloudKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A06278993377AE0507FA5FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4090C74E23C8B2B2009B7CBF /* CloudKit.framework */,
+				D420839246CACF5FAAFD5A8B /* Pods_PV_Pocket.framework */,
+				40E09DBA23CE0358007898D4 /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		40CAA0F623888DF8007CC03F = {
+			isa = PBXGroup;
+			children = (
+				40CAA10123888DF8007CC03F /* PV-Pocket */,
+				40E09DCD23CE04FC007898D4 /* PV-Pocket Stickers */,
+				40CAA10023888DF8007CC03F /* Products */,
+				7C19A2F4C4DF5492B1F301D3 /* Pods */,
+				2A06278993377AE0507FA5FB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		40CAA10023888DF8007CC03F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40CAA0FF23888DF8007CC03F /* PV Pocket.app */,
+				40E09DCC23CE04FC007898D4 /* PV Pocket Stickers.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40CAA10123888DF8007CC03F /* PV-Pocket */ = {
+			isa = PBXGroup;
+			children = (
+				40F0FB6223C7836500C3C2FD /* PV Pocket.entitlements */,
+				40FE8615239A0A080067C968 /* Announcements.swift */,
+				40CAA10223888DF8007CC03F /* AppDelegate.swift */,
+				40FE8617239AC96E0067C968 /* BarcodeScanner.swift */,
+				4056A2B3238C80B500AC4F1F /* BlurView.swift */,
+				40BA74B5238C4F6D003CC9DC /* CardView.swift */,
+				40966BE72389A55F0077C0FB /* ClassroomView.swift */,
+				404F692A23D8B8D600A32640 /* DigitalIDView.swift */,
+				4046484723CC23D300E12E1D /* GoogleService-Info.plist */,
+				4052A673238A348E00836B44 /* HomeView.swift */,
+				409E57622396B558001C4E34 /* Login.swift */,
+				40966BE52389A1E30077C0FB /* LunchView.swift */,
+				A225467523E481DB0015D3EF /* DeliOrderItems.swift */,
+				40CAA10923888DF8007CC03F /* MainView.swift */,
+				404C600723D00F32004AABFD /* MapView.swift */,
+				40CAA10423888DF8007CC03F /* SceneDelegate.swift */,
+				4049857523DAA23000CFA04E /* SplashScreen.swift */,
+				4066F96A23A05637001F7586 /* UserSettings.swift */,
+				40439A2223986D3300356DC8 /* Utils.swift */,
+				408CE7A923DB787D00D378E1 /* Keys.txt */,
+				40CAA10B23888DF9007CC03F /* Assets.xcassets */,
+				40CAA11023888DF9007CC03F /* LaunchScreen.storyboard */,
+				40CAA11323888DF9007CC03F /* Info.plist */,
+				40CAA10623888DF8007CC03F /* SwiftUI_Test.xcdatamodeld */,
+			);
+			path = "PV-Pocket";
+			sourceTree = "<group>";
+		};
+		40E09DCD23CE04FC007898D4 /* PV-Pocket Stickers */ = {
+			isa = PBXGroup;
+			children = (
+				40E09DCE23CE04FE007898D4 /* Stickers.xcassets */,
+				40E09DD023CE04FE007898D4 /* Info.plist */,
+			);
+			path = "PV-Pocket Stickers";
+			sourceTree = "<group>";
+		};
+		7C19A2F4C4DF5492B1F301D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9AD656A90C7AEE381CE720D0 /* Pods-SwiftUI Test.debug.xcconfig */,
+				65AAEE757490A1E3AD186074 /* Pods-SwiftUI Test.release.xcconfig */,
+				3FD21122B3F47478A64B0AE8 /* Pods-PV-Pocket.debug.xcconfig */,
+				A643A375F3BC49A9E02A40E0 /* Pods-PV-Pocket.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40CAA0FE23888DF8007CC03F /* PV-Pocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40CAA11623888DF9007CC03F /* Build configuration list for PBXNativeTarget "PV-Pocket" */;
+			buildPhases = (
+				EE3B53E26662DD27E2A4BF22 /* [CP] Check Pods Manifest.lock */,
+				40CAA0FB23888DF8007CC03F /* Sources */,
+				40CAA0FC23888DF8007CC03F /* Frameworks */,
+				40CAA0FD23888DF8007CC03F /* Resources */,
+				1A3721F472D756F355D1238E /* [CP] Embed Pods Frameworks */,
+				49D78DF485B9A61CA50DC1AC /* [CP] Copy Pods Resources */,
+				40E09DC623CE0358007898D4 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40E09DD223CE04FE007898D4 /* PBXTargetDependency */,
+			);
+			name = "PV-Pocket";
+			packageProductDependencies = (
+				CCECA4FC23D9EEEE00D1C2BD /* URLImage */,
+			);
+			productName = "SwiftUI Test";
+			productReference = 40CAA0FF23888DF8007CC03F /* PV Pocket.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40E09DCB23CE04FC007898D4 /* PV-Pocket Stickers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40E09DD423CE04FE007898D4 /* Build configuration list for PBXNativeTarget "PV-Pocket Stickers" */;
+			buildPhases = (
+				40E09DCA23CE04FC007898D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PV-Pocket Stickers";
+			productName = "PV-Pocket Stickers";
+			productReference = 40E09DCC23CE04FC007898D4 /* PV Pocket Stickers.appex */;
+			productType = "com.apple.product-type.app-extension.messages-sticker-pack";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40CAA0F723888DF8007CC03F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Sean Oplinger";
+				TargetAttributes = {
+					40CAA0FE23888DF8007CC03F = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					40E09DCB23CE04FC007898D4 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 40CAA0FA23888DF8007CC03F /* Build configuration list for PBXProject "PV-Pocket" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40CAA0F623888DF8007CC03F;
+			packageReferences = (
+				CCECA4FB23D9EEEE00D1C2BD /* XCRemoteSwiftPackageReference "url-image" */,
+			);
+			productRefGroup = 40CAA10023888DF8007CC03F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40CAA0FE23888DF8007CC03F /* PV-Pocket */,
+				40E09DCB23CE04FC007898D4 /* PV-Pocket Stickers */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40CAA0FD23888DF8007CC03F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40CAA11223888DF9007CC03F /* LaunchScreen.storyboard in Resources */,
+				40CAA10C23888DF9007CC03F /* Assets.xcassets in Resources */,
+				408CE7AA23DB787D00D378E1 /* Keys.txt in Resources */,
+				4046484823CC23D300E12E1D /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40E09DCA23CE04FC007898D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40E09DCF23CE04FE007898D4 /* Stickers.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A3721F472D756F355D1238E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PV-Pocket/Pods-PV-Pocket-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PV-Pocket/Pods-PV-Pocket-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PV-Pocket/Pods-PV-Pocket-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49D78DF485B9A61CA50DC1AC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PV-Pocket/Pods-PV-Pocket-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PV-Pocket/Pods-PV-Pocket-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PV-Pocket/Pods-PV-Pocket-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE3B53E26662DD27E2A4BF22 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PV-Pocket-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40CAA0FB23888DF8007CC03F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40FE8616239A0A090067C968 /* Announcements.swift in Sources */,
+				4052A674238A348E00836B44 /* HomeView.swift in Sources */,
+				40CAA10823888DF8007CC03F /* SwiftUI_Test.xcdatamodeld in Sources */,
+				409E57632396B558001C4E34 /* Login.swift in Sources */,
+				404F692B23D8B8D600A32640 /* DigitalIDView.swift in Sources */,
+				40439A2323986D3300356DC8 /* Utils.swift in Sources */,
+				4056A2B4238C80B500AC4F1F /* BlurView.swift in Sources */,
+				40BA74B6238C4F6D003CC9DC /* CardView.swift in Sources */,
+				404C600823D00F32004AABFD /* MapView.swift in Sources */,
+				A225467623E481DB0015D3EF /* DeliOrderItems.swift in Sources */,
+				4049857623DAA23000CFA04E /* SplashScreen.swift in Sources */,
+				40FE8618239AC96E0067C968 /* BarcodeScanner.swift in Sources */,
+				40CAA10323888DF8007CC03F /* AppDelegate.swift in Sources */,
+				40966BE82389A55F0077C0FB /* ClassroomView.swift in Sources */,
+				40CAA10A23888DF8007CC03F /* MainView.swift in Sources */,
+				40CAA10523888DF8007CC03F /* SceneDelegate.swift in Sources */,
+				4066F96B23A05637001F7586 /* UserSettings.swift in Sources */,
+				40966BE62389A1E30077C0FB /* LunchView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40E09DD223CE04FE007898D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40E09DCB23CE04FC007898D4 /* PV-Pocket Stickers */;
+			targetProxy = 40E09DD123CE04FE007898D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		40CAA11023888DF9007CC03F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40CAA11123888DF9007CC03F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40CAA11423888DF9007CC03F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		40CAA11523888DF9007CC03F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40CAA11723888DF9007CC03F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FD21122B3F47478A64B0AE8 /* Pods-PV-Pocket.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "PV-Pocket/PV Pocket.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = Z4KE533LR3;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/PV-Pocket/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pvsd.pvpocket;
+				PRODUCT_NAME = "PV Pocket";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		40CAA11823888DF9007CC03F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A643A375F3BC49A9E02A40E0 /* Pods-PV-Pocket.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "PV-Pocket/PV Pocket.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = Z4KE533LR3;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/PV-Pocket/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pvsd.pvpocket;
+				PRODUCT_NAME = "PV Pocket";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		40E09DD523CE04FE007898D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z4KE533LR3;
+				INFOPLIST_FILE = "PV-Pocket Stickers/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pvsd.pvpocket.PV-Pocket-Stickers";
+				PRODUCT_NAME = "PV Pocket Stickers";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		40E09DD623CE04FE007898D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z4KE533LR3;
+				INFOPLIST_FILE = "PV-Pocket Stickers/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pvsd.pvpocket.PV-Pocket-Stickers";
+				PRODUCT_NAME = "PV Pocket Stickers";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40CAA0FA23888DF8007CC03F /* Build configuration list for PBXProject "PV-Pocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40CAA11423888DF9007CC03F /* Debug */,
+				40CAA11523888DF9007CC03F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40CAA11623888DF9007CC03F /* Build configuration list for PBXNativeTarget "PV-Pocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40CAA11723888DF9007CC03F /* Debug */,
+				40CAA11823888DF9007CC03F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40E09DD423CE04FE007898D4 /* Build configuration list for PBXNativeTarget "PV-Pocket Stickers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40E09DD523CE04FE007898D4 /* Debug */,
+				40E09DD623CE04FE007898D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CCECA4FB23D9EEEE00D1C2BD /* XCRemoteSwiftPackageReference "url-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dmytro-anokhin/url-image.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.9;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CCECA4FC23D9EEEE00D1C2BD /* URLImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CCECA4FB23D9EEEE00D1C2BD /* XCRemoteSwiftPackageReference "url-image" */;
+			productName = URLImage;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		40CAA10623888DF8007CC03F /* SwiftUI_Test.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				40CAA10723888DF8007CC03F /* SwiftUI_Test.xcdatamodel */,
+			);
+			currentVersion = 40CAA10723888DF8007CC03F /* SwiftUI_Test.xcdatamodel */;
+			path = SwiftUI_Test.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 40CAA0F723888DF8007CC03F /* Project object */;
+}

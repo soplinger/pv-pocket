@@ -1,0 +1,71 @@
+{
+  "stickers" : [
+    {
+      "filename" : "Pad-22LOGOMap.sticker"
+    },
+    {
+      "filename" : "Pad-22LOGOHalloween.sticker"
+    },
+    {
+      "filename" : "Pad-22LOGOCresensncz.sticker"
+    },
+    {
+      "filename" : "Pad-22LOGOValentinesDay.sticker"
+    },
+    {
+      "filename" : "Pad-22LOGODeli.sticker"
+    },
+    {
+      "filename" : "Pad-22LOGOMail.sticker"
+    },
+    {
+      "filename" : "Pad-22LOGOPride.sticker"
+    },
+    {
+      "filename" : "Pad-22LOGOEaster.sticker"
+    },
+    {
+      "filename" : "Pad-22LOGOID.sticker"
+    },
+    {
+      "filename" : "Pad-22LOGOPennebacker.sticker"
+    },
+    {
+      "filename" : "Pad-22LOGOSaintPattysDay.sticker"
+    },
+    {
+      "filename" : "Pad-22LOGOSummer.sticker"
+    },
+    {
+      "filename" : "Pad-22LOGOChristmas.sticker"
+    },
+    {
+      "filename" : "Pad-22LOGONoah.sticker"
+    },
+    {
+      "filename" : "Pad-22LOGOBlank.sticker"
+    },
+    {
+      "filename" : "Pad-22LOGO.sticker"
+    },
+    {
+      "filename" : "Pad-22LOGOSettings.sticker"
+    },
+    {
+      "filename" : "Pad-22LOGOThanksgiving.sticker"
+    },
+    {
+      "filename" : "Pad-22LOGOStipa.sticker"
+    },
+    {
+      "filename" : "Pad-22LOGOBirthday.sticker"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  },
+  "properties" : {
+    "grid-size" : "regular"
+  }
+}
